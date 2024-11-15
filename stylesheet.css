@@ -1,0 +1,40 @@
+/* This is stylesheet.css an external style sheet */
+/* Style whole page */
+	body {
+		color: #2d3b71;
+<!-- removed as do not want body of page to be color
+		background-color: yellow; -->
+		margin: 0;
+	}
+	/*  Wrapper div controls width of entire layout */
+	#wrapper {
+  width: 800px;
+}
+	/* Page header at the top of each page */
+	Header {
+		background-color:blue;
+		color:white;
+		height:60px;
+		line-height:60px;
+	}
+	/* Navigation bar */
+	nav{
+		<!--> background-color:#bd905e; -->
+		<!--> height: 30px; -->
+		<!--> line-height: 30px; -->
+		width: 250 px;
+		float:right;
+	}
+	nav a{
+		text-decoration:none;
+		color:white;
+		font-size:115%;
+	}
+	/* Level 1 and Level 2 headings */
+	h1 {
+		color: white;
+		margin: 0;
+	}	
+	h2 {
+		color: #64001f;
+	}
