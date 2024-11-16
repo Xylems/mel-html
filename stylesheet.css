@@ -2,8 +2,8 @@
 /* Style whole page */
 	body {
 		color: #2d3b71;
-<!-- removed as do not want body of page to be color
-		background-color: yellow; -->
+/* removed as do not want body of page to be color
+		background-color: yellow; */
 		margin: 0;
 	}
 	/*  Wrapper div controls width of entire layout */
@@ -11,7 +11,7 @@
   width: 800px;
 }
 	/* Page header at the top of each page */
-	Header {
+	header {
 		background-color:blue;
 		color:white;
 		height:60px;
@@ -19,10 +19,10 @@
 	}
 	/* Navigation bar */
 	nav{
-		<!--> background-color:#bd905e; -->
-		<!--> height: 30px; -->
-		<!--> line-height: 30px; -->
-		width: 250 px;
+		/* background-color:#bd905e; */
+		/* height: 30px; */
+		/* line-height: 30px; */
+		width: 250px;
 		float:right;
 	}
 	nav a{
